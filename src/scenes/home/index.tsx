@@ -107,9 +107,19 @@ const Home = ({ setSelectedPage }: Props) => {
       )}
 
       {/* FOOTER FOR ADS */}
-      <div className="">
-        <AdComponent />
-      </div>
+      {areAdsVisible && (
+        <footer className="fixed bottom-0 z-30 w-full bg-primary-100 py-4 drop-shadow">
+          <div className={`${flexBetween} mx-auto w-5/6`}>
+            <div className="flex w-full justify-center">
+              <div className="flex gap-4">
+                <div className="">
+                  <AdComponent />
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      )}
 
       {/* Button to toggle ads */}
       <div className="fixed bottom-16 right-16 z-40">
