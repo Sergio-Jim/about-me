@@ -51,7 +51,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
           <p className="my-5">
             Contact Details: <br />
             Number: +264816927077 <br />
-            Email: jimmysergiodamiao@gmail.com
+            Email: sxrgio.dev@gmail.com
           </p>
         </motion.div>
 
