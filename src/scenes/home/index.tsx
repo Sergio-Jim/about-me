@@ -46,9 +46,9 @@ const Home = ({ setSelectedPage }: Props) => {
               visible: { opacity: 1, x: 0 },
             }}
           >
-            <div className="relative">
+            {/* <div className="relative">
               <img alt="big-logo" src={BigLogo} className="w-2/3 h-2/3"/>
-            </div>
+            </div> */}
 
             <h1 className="mt-8 text-xl font-bold">
               Hi, I'm Jimmy Sergio, a passionate Software Developer.
